@@ -1,0 +1,152 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+/* 控制网页的最大宽度，无论浏览器窗口多大或多小，网页内容区域都会占据窗口宽度的80%，并且居中显示。 */
+/* body { */
+    /* width: 80%; */
+    /* max-width: 1500px; */
+    /* margin: auto;
+} */
+
+
+
+footer {
+    border: solid;
+    height: 100px;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    border: solid gray;
+}
+
+.nav {
+    height: 40px;
+    border-top: #ff8500 3px solid;
+}
+
+.nav a {
+    background-color: #edeef0 ;
+    /* width: 80px; */
+    height: 40px;
+    padding-left: 16px;
+    padding-right: 16px;
+    color: black;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    box-sizing: border-box;
+    
+}
+
+a:hover {
+    background-color: orange;
+}
+
+
+
+.box_outside {
+    width: 350px;
+    height: 350px;
+    background-color: pink;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.box_inside {
+    width: 234px;
+    height: 300px;
+    background-color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.img_product {
+    width: 160px;  
+    /* height: 160px; */
+    margin: 0 auto;
+    padding: 25px;
+    
+    
+}
+
+/* .img_product img {
+    object-fit: cover;
+} */
+
+.title {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.info {
+    font-size: 12px;
+    line-height: 30px;
+    color: #ccc;
+}
+
+.price {
+    font-size: 14px;
+    color: #ffa500;
+}
+
+.news {
+    margin: 100px auto;
+    width: 450px;
+    height: 200px;
+    
+}
+
+.newsbar {
+    height: 40px;
+    background-color: #edeef0;
+    border: 1px solid #dbdee1;
+    border-left: 0;
+       
+}
+
+.newsbar a {
+    line-height: 40px;
+    background-color: #fff;
+    border-top: #ff8500 2px solid;
+    text-decoration: none;
+    padding: 0 20px;
+    font-size: 1.2em;
+    text-align: center;
+    display: inline-block;
+    box-sizing: border-box;
+ 
+}
+
+.newslist ul {
+    margin: 15px 15px;
+}
+
+.newsbar li {
+   
+}
+
+.newslist li a {
+    padding-left: 20px;
+    font-size: 16px;
+    color: #666;
+    line-height: 2em;
+   
+}
